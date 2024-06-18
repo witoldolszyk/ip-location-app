@@ -1,0 +1,9 @@
+<mat-card>
+    <mat-form-field appearance="fill" class="w-full">
+      <mat-label>Search IP or URL</mat-label>
+      <input matInput placeholder="Enter IP or URL" [(ngModel)]="ipOrUrl">
+    </mat-form-field>
+    <button mat-raised-button color="primary" (click)="search()">Search</button>
+    <div *ngIf="errorMessage" class="error-message">{{ errorMessage }}</div>
+</mat-card>
+  

@@ -1,0 +1,11 @@
+mat-card {
+    margin: 20px 0; 
+    width: 350px; 
+    padding: 20px;
+}
+  
+.error-message {
+    color: red;
+    margin-top: 10px; 
+}
+  

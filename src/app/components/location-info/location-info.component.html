@@ -1,0 +1,12 @@
+<mat-card *ngIf="location">
+<div>
+    <h3>Location Information</h3>
+    <p><strong>IP:</strong> {{ location.ip }}</p>
+    <p><strong>Latitude:</strong> {{ location.latitude }}</p>
+    <p><strong>Longitude:</strong> {{ location.longitude }}</p>
+    <p><strong>City:</strong> {{ location.city }}</p>
+    <p><strong>Region:</strong> {{ location.region_name }}</p>
+    <p><strong>Country:</strong> {{ location.country_name }}</p>
+  </div>
+</mat-card>
+  

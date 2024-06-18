@@ -1,0 +1,39 @@
+.container {
+    display: flex;
+  }
+  
+  .left-column {
+    width: 25%;
+    padding: 20px; 
+  }
+  
+  .main-content {
+    width: 75%;
+    padding: 20px;
+  }
+  
+  .top-section,
+  .bottom-section {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px; 
+  }
+  
+  .map-container {
+    width: 60%;
+  }
+  
+  .info-container {
+    width: 30%;
+  }
+  
+  .search-section {
+    display: flex;
+    margin-bottom: 40px;
+    width: 100%;
+  }
+  
+  .mat-card {
+    margin-bottom: 40px; 
+  }
+  
